@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* khôi phục lại chữ mặc định  theo rem 1 rem= 10px=>1.6rem= 16px   */
+body {
+  font-size: 1.6rem;
+}
