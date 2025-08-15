@@ -413,7 +413,7 @@ a {
   font-style: italic;
   line-height: 1.54; /* 153.846% */
 }
-/* feature */
+/* =========feature-1========== */
 .feature {
   margin-top: 135px;
   padding: 65px 0;
@@ -452,4 +452,21 @@ a {
   width: 137px;
   height: 50px;
   background: var(--btn-color);
+}
+/* =========feature-2========== */
+.feature-2nd {
+  margin-top: 70px;
+}
+.feature-2nd .body {
+  flex-direction: row-reverse;
+}
+.feature-2nd .content {
+  width: 49%;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+.feature-2nd .image img {
+  width: 470px;
+  height: 440px;
 }
